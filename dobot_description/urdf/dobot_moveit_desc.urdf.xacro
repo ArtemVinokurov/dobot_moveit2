@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="dobot_cr16" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:arg name="robot_ip" default=""/>
+  <xacro:arg name="use_fake_hardware" default="false"/>
+  <xacro:arg name="fake_sensor_commands" default="false"/>
+
+
+  
+  <xacro:include filename="$(find dobot_description)/urdf/dobot_cr16.urdf.xacro"/>
+  <xacro:include filename="dobot.ros2_control.xacro"/>
+  <xacro:dobot_ros2_control robot_ip="$(arg robot_ip)" use_fake_hardware="$(arg use_fake_hardware)" fake_sensor_commands="$(arg fake_sensor_commands)"/>
+
+
+</robot>

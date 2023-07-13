@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<library path="dobot_hardware">
+    <class name="dobot_hardware/DobotHardwareInterface" type="dobot_hardware::DobotHardwareInterface"
+           base_class_type="hardware_interface::SystemInterface">
+        <description>
+            HW Dobot
+        </description>
+    </class>
+</library>
