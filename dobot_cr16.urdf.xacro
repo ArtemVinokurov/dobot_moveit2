@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com)
      Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot name="dobot_cr16" xmlns:xacro="http://www.ros.org/wiki/xacro">
@@ -25,7 +25,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/base_link.STL"  />
+          filename="./meshes/base_link.STL"  />
       </geometry>
       <material
         name="">
@@ -39,7 +39,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/base_link.STL"/>
+          filename="./meshes/base_link.STL"/>
           <box size="1.1 1.8 0.3"/>
       </geometry>
     </collision>
@@ -68,7 +68,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link1.STL" />
+          filename="./meshes/Link1.STL" />
       </geometry>
       <material
         name="">
@@ -82,7 +82,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link1.STL" />
+          filename="./meshes/Link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -126,7 +126,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link2.STL"  />
+          filename="./meshes/Link2.STL"  />
       </geometry>
       <material
         name="">
@@ -140,7 +140,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link2.STL" />
+          filename="./meshes/Link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -184,7 +184,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link3.STL" />
+          filename="./meshes/Link3.STL" />
       </geometry>
       <material
         name="">
@@ -198,7 +198,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link3.STL" />
+          filename="./meshes/Link3.STL" />
       </geometry>
     </collision>
   </link>
@@ -242,7 +242,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link4.STL" />
+          filename="./meshes/Link4.STL" />
       </geometry>
       <material
         name="">
@@ -256,7 +256,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link4.STL" />
+          filename="./meshes/Link4.STL" />
       </geometry>
     </collision>
   </link>
@@ -300,7 +300,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link5.STL" />
+          filename="./meshes/Link5.STL" />
       </geometry>
       <material
         name="">
@@ -314,7 +314,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link5.STL" />
+          filename="./meshes/Link5.STL" />
       </geometry>
     </collision>
   </link>
@@ -358,7 +358,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link6.STL"/>
+          filename="./meshes/Link6.STL"/>
       </geometry>
       <material
         name="">
@@ -372,7 +372,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dobot_description/meshes/cr16/Link6.STL" />
+          filename="./meshes/Link6.STL" />
       </geometry>
     </collision>
   </link>
